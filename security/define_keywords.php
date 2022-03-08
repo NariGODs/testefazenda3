@@ -2,7 +2,8 @@
 date_default_timezone_set('America/Denver');
 define('ENV', 'DEV');
 define('DOMAIN', $_SERVER['HTTP_HOST']);
-define('SERVER_IP', $_SERVER['SERVER_ADDR']);
+//define('SERVER_IP', $_SERVER['SERVER_ADDR']);
+//define('REMOTE_ADD', $_SERVER['SERVER_ADDR']);
 define('KEY', 'test_tahc_erttt009874_sudhir');
 define('CURRENT_DATE_TIME', date("Y/m/d G.i:s"));
 define('ISRD', 'is_required="1"');
