@@ -10,11 +10,11 @@ if (!isset($_SESSION)) {
 }
 
 if (ENV == "DEV") {
-    define('DB_HOST', "localhost");
-    define('DB_USER', "root");
-    define('DB_PASSWORD', "");
+    define('DB_HOST', "fazendamysql.mysql.database.azure.com");
+    define('DB_USER', "felipe");
+    define('DB_PASSWORD', "P@ssw0rd");
     define('DB_DATABASE', "chat");
-    
+
 } else {
     define('DB_HOST', "localhost");
     define('DB_USER', "****");
