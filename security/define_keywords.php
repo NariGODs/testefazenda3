@@ -2,7 +2,7 @@
 date_default_timezone_set('America/Denver');
 define('ENV', 'DEV');
 define('DOMAIN', $_SERVER['HTTP_HOST']);
-define('SERVER_IP', $_SERVER['fazendamysql.mysql.database.azure.com']);
+define('SERVER_IP', "fazendamysql.mysql.database.azure.com");
 define('REMOTE_ADD', $_SERVER['fazendamysql.mysql.database.azure.com']);
 define('KEY', 'test_tahc_erttt009874_sudhir');
 define('CURRENT_DATE_TIME', date("Y/m/d G.i:s"));
